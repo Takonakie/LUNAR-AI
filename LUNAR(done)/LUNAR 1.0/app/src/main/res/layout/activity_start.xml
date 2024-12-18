@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:background="@drawable/background2"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".startActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="187dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            app:srcCompat="@drawable/logo2" />
+
+        <TextView
+            android:textSize="36dp"
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="monospace"
+            android:text="L U N A R" />
+
+        <TextView
+            android:id="@+id/tagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/alkatra_semibold"
+            android:text="Your Daily AI"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="150dp"
+            android:text="Get Started"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</RelativeLayout>
