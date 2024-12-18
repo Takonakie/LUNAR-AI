@@ -170,7 +170,7 @@ public class HomeFragment extends Fragment implements SensorEventListener {
         RequestBody body = RequestBody.create(jsonObject.toString(), JSON);
         Request request = new Request.Builder()
                 .url("https://api.openai.com/v1/chat/completions")
-                .header("Authorization", "Bearer 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")
+                .header("Authorization", "Bearer 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")
                 .header("Content-Type", "application/json")
                 .post(body)
                 .build();
