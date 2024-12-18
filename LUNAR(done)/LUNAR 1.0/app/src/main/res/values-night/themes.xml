@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.test.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <!-- PopupOverlay style -->
+    <style name="Theme.test.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+    <style name="Base.Theme.test." parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary"> @color/pink1</item>
+        <item name="colorPrimaryVariant"> @color/pink2</item>
+        <item name="colorOnPrimary"> @color/black</item>
+
+        <item name="colorSecondary"> @color/blue1</item>
+        <item name="colorSecondaryVariant"> @color/blue2</item>
+        <item name="colorOnSecondary"> @color/black</item>
+
+        <item name="android:statusBarColor" tools:targetAPI="l">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>
